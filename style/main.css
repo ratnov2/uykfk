@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -62,6 +63,10 @@ header{
   font-size: 20px;
   display: flex;
   justify-content:space-between
+}
+.header-text-down ul li a{
+  text-decoration: none;
+  color:white;
 }
 .header-text-up-span{
   color: #DBB801;

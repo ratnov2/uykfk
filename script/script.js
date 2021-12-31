@@ -35,6 +35,7 @@ funcInterval = () => {
 
   sumInteval();
   setInterval(sumInteval, 21000);
+
 }
 let testVar = [1, 2, 0]
 sumInteval = () => {
