@@ -9,55 +9,65 @@
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <!-- <link
     href="https://fonts.googleapis.com/css2?family=Neucha&family=Roboto:ital,wght@0,100;1,300;1,400;1,700&display=swap"
     rel="stylesheet"> -->
 </head>
 
-<body style='overflow-x:hidden;'>
+
+<body style='overflow-x:hiddeR'>
   <header>
     <div class="header-text">
-      <div class="header-text-logo">
-        <img src="./img/main/logo.png" alt="">
+      <div class="header-text-up">
+        <div class="header-text-up-contact"> 
+        </div> 
+          <img src="./img/main/logo.png" alt="">  
+        <div class="header-text-up-social"></div>
       </div>
-      <div class="header-text-upDown">
-        <div class="header-text-up">
-          <span class='header-text-up-span'>Breytovo.ru</span> Официальный туристический портал Брейтова
-        </div>
+      <div class="header-text-down">
         <div class="header-text-down">
           <ul>
-            <li><a href='./pobPage/eat.html'>Еда и напитки</a></li>
-            <li>Размещение</li>
-            <li>Досуг</li>
-            <li>О нас</li>
-            <li>Поиск</li>
+            <li><a href="./pobPage/eat.html">Еда и напитки</a></li>
+            <li><a href='./pobPage/place.html'>Размещение</a></li>
+            <li><a href='./pobPage/activeChill.html'>Активный отдых</a></li>
+            <li><a href='./pobPage/culture.html'>Культурная программа</a></li>
+            <li><a href='./pobPage/localMer.html'>Местные мероприятия</a></li>
           </ul>
         </div>
-
       </div>
-      <div class="header-text-right">
-        <ul>
-          <li><img src="./img/main/twitter.svg" alt=""></li>
-          <li><img src="./img/main/inst.svg" alt=""></li>
-          <li><img src="./img/main/facebook.svg" alt=""></li>
-        </ul>
-      </div>
-
     </div>
+
     <div class="slider">
       <div class="sliderImg1">
-        <img src="./img/main/imgSlider1.png" class='' alt="">
-        <img src="./img/main/imgSlider2.jpg" class='' alt="">
-        <img src="./img/main/imgSlider3.jpg" class='' alt="">
+        <img class='slide' src="./img/main/imgSlider1.png"  alt="">
+      </div>
+      <div class="chitates">
+        <p class="chitates-more">"Кто-то самый важный в твоей жизни обязательно появится, словно из воздуха, если только для него есть место. Если это место уже кем-то создано, если вся система уже запущена"</p>
+        <p class="chitates-autor">-Вера Шенгелия</p>
       </div>
       <div class="switchMainSlider">
-        <div class='arrow1'></div>
-        <div class='arrow2'></div>
+        <div class='prev'>
+          <div class="arrowl arrow-right"></div>
+        </div>
+        <div class='next'>
+          <div class="arrowR arrow-left"></div>
+        </div>
+      </div>
+      <div class="header-bottom-text">
+        <a  href="#one" class="share-header-bottom-text">
+          <span>Прокрутите вниз </span>
+          <div class='prev'>
+            <div class="arrowB arrow-bottom"></div>
+          </div>
+          <span>для получения информации</span>
+        </a>
       </div>
     </div>
+
   </header>
 
-
+  <a id="one" name="one"></a> 
   <div class="main-description">
     <h1>Брейтовский край, Россия</h1>
     <div class="main-description-subtitle">
@@ -78,11 +88,10 @@
       <button>Подробнее</button>
     </div>
   </div>
-  <div class='text-subtitle-video'>
-    <div class="text-subtitle-video-plusH1">
-      <h1>Брейтово</h1>
-      <div class='text-subtitle-video-left'>
-        Старое Брейтово исчезло при затоплении Мологи - древнего города, который часто называют «русской Атлантидой»,
+  <div class="priv-share">
+    <div class="priv-block">
+      <h1>Почему стоит посетить Брейтово?</h1>
+      <p>Старое Брейтово исчезло при затоплении Мологи - древнего города, который часто называют «русской Атлантидой»,
         павшего
         жертвой электрификации страны. Под водами рукотворного Рыбинского водохранилища исчезли несколько старинных
         церквей,
@@ -90,24 +99,70 @@
         когда-то было
         старое сельское кладбище, брейтовчане возвели часовню, назвав именем почитаемого на Руси святого Николая
         Чудотворца
-        —заступника, особо покровительствующего путникам и спасающего людей от водных стихий.
+        —заступника, особо покровительствующего путникам и спасающего людей от водных стихий.</p>
+    </div>
+
+    <div class='text-subtitle-video'>
+      <a class="play-btn" href="#"></a>
+      <div class="cms">
+        <iframe width="700" height="390" src="https://www.youtube.com/embed/tX5QeZx_HGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-    <div class='text-subtitle-video-right'></div>
+
   </div>
-  <div class="row-box">
-    <div class="box">
-      <img src='./img/main/img1.png' alt="">
-    </div>
-    <div class="box">
-      <img src="./img/main/img1.png" alt="">
-    </div>
-    <div class="box">
-      <img src="./img/main/img1.png" alt="">
-    </div>
-    <div class="box">
-      <img src="./img/main/img1.png" alt="">
-    </div>
+    
+  </div>
+  <div class="autor-recom-header-share">
+    <h1 class="h1-header-share">Авторские рекомендации</h1>
+    <svg width="240" height="20">
+      <polyline class="arrow1"
+      points="0,5 110,5 120,15"
+        fill="none" stroke="rgb(194, 194, 194)" stroke-width="1"
+      />
+      <polyline class="arrow1"
+      points="240,5 130,5 120,15"
+        fill="none" stroke="rgb(194, 194, 194)" stroke-width="1"
+      />
+    </svg>
+  </div>
+  
+  <div class="hover-text-one">
+    
+    <figure class="effect-text-two">
+      <img src="./img/main/vetreno.jpg" alt=""/>
+        <figcaption>
+          <h3>Ветрено</h3>
+          <p>Прекрасный вариант
+            для любителей кемпинга
+            и водных видов спорта</p>
+        </figcaption>			
+    </figure>
+    <figure class="effect-text-two">
+      <img src="./img/main/lesnoiBereg.jpg" alt=""/>
+        <figcaption>
+    <h3>Лесной <span>берег</span></h3>
+    <p>Чистый
+      контактный зоопарк
+      на территории</p>
+        </figcaption>			
+    </figure>
+    <figure class="effect-text-two">
+      <img src="./img/main/hram.jpg" alt=""/>
+        <figcaption>
+    <h3>Храм</h3>
+    <p>Величественный ансамбль
+      на берегу водохранилища</p>
+        </figcaption>			
+    </figure>
+    <figure class="effect-text-two">
+      <img src="./img/main/rekaSit.jpg" alt=""/>
+        <figcaption>
+    <h3>Река <span>сить</span></h3>
+    <p>Не только живописные места для купания и прогулок
+      но и историческое наследие</p>
+        </figcaption>			
+    </figure>
+    
   </div>
   <div class='main-img2 shell-main-img'>
     <img src="./img/main/main-img2.png" alt="">
@@ -116,37 +171,34 @@
     <div class="block-color-text">
       <div class='shell-block-color-text-text'>
         <div class='block-color-span'>
-          <span>Порой люди несут такой бред, что единственное спасение — прикинуться идиотом</span>
+          <span>Единственное, что до сих пор мне удавалось сделать на кухне — это бардак и несколько мелких пожаров</span>
         </div>
-        <h1>Памятники культуры</h1>
+        <h1>Местная кухня</h1>
       </div>
     </div>
     <div class='shell-cards'>
       <div class="beaut-block-1-cards">
-        <div class="beaut-block-1-cards-description">
-          <img src="./img/main/dragon.jpg" alt="">
-          <div class='beaut-block-1-cards-description-main'><span>Краеведческий музей</span></div>
-          <div class='beaut-block-1-cards-description-subtitle'><i>Узнайте историю водохранилища и не только
-              Прозоровский
-              музей</i>
+        <a href = '#' class="beaut-block-1-cards-description">
+          <img src="./img/main/xlebzavod.jpg" alt="">
+          <div class='beaut-block-1-cards-description-main'><span>Хлебозавод</span></div>
+          <div class='beaut-block-1-cards-description-subtitle'><i>Не забудьте попробовать пиццу</i>
           </div>
-        </div>
-        <div class="beaut-block-1-cards-description">
-          <img src="./img/main/dragon.jpg" alt="">
-          <div class='beaut-block-1-cards-description-main'><span>Панорама Ситской битвы</span></div>
-          <div class='beaut-block-1-cards-description-subtitle'><i>Насладитесь великолепными видами и прочувствуйте
-              трагедию Xl века</i>
+        </a>
+        <a href = '#'class="beaut-block-1-cards-description">
+          <img src="./img/main/sir_zavod.jpg" alt="">
+          <div class='beaut-block-1-cards-description-main'><span>Углический сырзавод</span></div>
+          <div class='beaut-block-1-cards-description-subtitle'><i>Попробуйте натуральную молочную продукцию</i>
           </div>
-        </div>
-        <div class="beaut-block-1-cards-description">
-          <img src="./img/main/dragon.jpg" alt="">
-          <div class='beaut-block-1-cards-description-main'><span>Прозоровский музей</span>
+        </a>
+        <a href = '#' class="beaut-block-1-cards-description">
+          <img src="./img/main/dar_prirody.jpg" alt="">
+          <div class='beaut-block-1-cards-description-main'><span>Дары природы</span>
           </div>
           <div class='beaut-block-1-cards-description-subtitle'>
             <i>Познакомтесь с бытом предков и попейте чай из
               самовара</i>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </div>
@@ -159,70 +211,100 @@
         <div class='block-color-span'>
           <span>Бред оказался всего лишь тенью реальности, обрядившейся в личину прошедшего</span>
         </div>
-        <h1>Местная кухня</h1>
+        <h1>Памятники культуры</h1>
       </div>
     </div>
     <div class="shell-cards-cook">
       <div class='beaut-block-2-cards'>
-        <div class="shell-img-cook shell-img-cook1">
-          <div class='shell-img-cook-span'>
-            <img class='img-cook-span1-first' src="./img/main/cook.jpg" alt="">
-            <span>Хлебозавод</span>
-          </div>
-          <div class='shell-img-cook-span'>
-            <img class='img-cook-span1-last' src="./img/main/cook.jpg" alt="">
-            <span>Углический cырзавод</span>
-          </div>
+        <figure class="shell-img-cook shell-img-cook1">
+          <figcaption class='shell-img-cook-span'>
+            <img class='img-cook-span1-first' src="./img/main/panorama_sitsc.jpeg" alt="">
+            <span>Панорама Ситской битвы</span>
+            <p>Насладитесь великолепными видами и прочувствуйте трагедию llx33 века</p>
+          </figcaption>
+          <figcaption class='shell-img-cook-span'>
+            <img class='img-cook-span1-last' src="./img/main/traktor.jpeg" alt="">
+            <span>Памятник Трактору</span>
+            <p>Памятник первому трактору, появившемуся в Брейтово в начале 30-х годов в период коллективизации сельского хозяйства</p>
+          </figcaption>
+        </figure>
 
-        </div>
-        <div class="shell-img-cook shell-img-cook2">
-          <div class='shell-img-cook-span'>
-            <img class='img-cook-span2-middle' src="./img/main/cook.jpg" alt="">
-            <span>Углический cырзавод</span>
-          </div>
-          <div class='shell-img-cook-span'>
-            <img class='img-cook-span2-middle' src="./img/main/cook.jpg" alt="">
-            <span>Углический cырзавод</span>
-          </div>
-        </div>
-        <div class="shell-img-cook shell-img-cook3">
-          <div class='shell-img-cook-span'>
-            <img class='img-cook-span3-first' src="./img/main/cook.jpg" alt="">
-            <span>Хлебозавод</span>
-          </div>
-          <div class='shell-img-cook-span'>
-            <img class='img-cook-span3-last' src="./img/main/cook.jpg" alt="">
-            <span>Углический cырзавод</span>
-          </div>
-        </div>
+        <figure class="shell-img-cook shell-img-cook2">
+          <figcaption class='shell-img-cook-span'>
+            <img class='img-cook-span2-middle' src="./img/main/prozorovo_muzei.jpeg" alt="">
+            <span>Прозоровский музей</span>
+            <p>Насладитесь великолепными видами и  прочувствуйте  трагедию llx33 века</p>
+          </figcaption>
+          <figcaption class='shell-img-cook-span'>
+            <img class='img-cook-span2-middle' src="./img/main/kraeved.jpeg" alt="">
+            <span>Краеведческий музей</span>
+            <p>Узнайте историю водохранилища и не только Прозоровский музей</p>
+           
+          </figcaption>
+        </figure>
+        <figure class="shell-img-cook shell-img-cook3">
+          <figcaption class='shell-img-cook-span'>
+            <img class='img-cook-span3-first' src="./img/main/pam_zinoviev.jpeg" alt="">
+            <span>Памятник Зиновьеву</span>
+            <p>Скромный памятник-стела из красного гранита является уникальным памятником исторического наследия не только Брейтовской земли, но и всей истории Российской империи</p>
+          </figcaption>
+          <figcaption class='shell-img-cook-span'>
+            <img class='img-cook-span3-last' src="./img/main/proshen_ruchei.jpeg" alt="">
+            <span>Прощёный ручей</span>
+            <p>Устройте себе легкую водную прогулку и узнайте местную легенду</p>
+          </figcaption>
+        </figure>
       </div>
     </div>
   </div>
   <div class='main-img4 shell-main-img'>
-    <img src="./img/main/main-img4.png" alt="">
+    <img src="./img/main/main-img4.jpg" alt="">
   </div>
-  <div class="autor-recom">
-    <div class="autor-recom-header">
-      Авторские рекомендации
+  <div class="to_visit">
+    <!-- <div class="to_visit_header">Things to do</div> -->
+    <h2 class="to_visit_header">Вас также может заинтересовать</h2>
+    <div class="to_visit_cards">
+      <div class="to_visit_cards_1">
+        <img src="./img/main/actualno_now.jpeg" alt="" class="to_visit_cards_img">
+        <figcaption>
+          <h4>Актуально сейчас</h4>
+          <p>Местные мероприятия</p>
+        </figcaption>
+      </div>
+      <div class="to_visit_cards_1">
+        <img src="./img/main/dik_otd.jpg" alt="" class="to_visit_cards_img">
+        <figcaption>
+          <h4>Отдых дикарями</h4>
+          <p>Палатку за плечи и вперёд на новыми ощущениями
+          </p>
+        </figcaption>
+      </div>
+      <!-- to_visit_cards_1 -->
+      <div class="to_visit_cards_1">
+        <img src="./img/main/history.jpeg" alt="" class="to_visit_cards_img">
+        <figcaption>
+          <h4>История края</h4>
+          <p>Узнайте и вы нашу историю</p>
+        </figcaption>
+      </div>
     </div>
-    <div class="autor-recom-cards">
-      <div class="autor-recom-cardNum">
-        <img src="./img/main/event.jpg" alt="">
-      </div>
-      <div class="autor-recom-cardNum">
-        <img src="./img/main/event.jpg" alt="">
-      </div>
-      <div class="autor-recom-cardNum">
-        <img src="./img/main/event.jpg" alt="">
-      </div>
-      <div class="autor-recom-cardNum">
-        <img src="./img/main/event.jpg" alt="">
-      </div>
-      <div class="autor-recom-cardNum">
-        <img src="./img/main/event.jpg" alt="">
-      </div>
-    </div>
+    <!-- to_visit_cards -->
   </div>
+  <!-- to_visit -->
+
+  <figure class="share-img">
+    <div class="share-group">
+      <h1>Откройте Для Себя Что-то Новое</h1>
+      <p>Радость путешествовать и открывать для себя новые места, или любоваться красотой природы – закатом, от которого
+        душа
+        поёт, а на лице невольно застывает улыбка, или полной луной на звёздном небе</p>
+      <div class="group-button">
+        <a>Досуг</a>
+        <a>Проживание</a>
+        <a>Питание</a>
+      </div>
+    </div>
+  </figure>
   <footer>
     <ul class="footer_text">
       <li class="footer_text_1">
@@ -260,6 +342,7 @@
       </div>
     </div>
   </footer>
+  
 
   <script src='./script/script.js'></script>
 </body>
